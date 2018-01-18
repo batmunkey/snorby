@@ -21,7 +21,7 @@ Snorby is a ruby on rails web application for network security monitoring that i
 
 	`git clone git://github.com/Snorby/snorby.git`
 
-* Move into de snorby Directory
+* Move into the snorby Directory
 
 	`cd snorby`
 
