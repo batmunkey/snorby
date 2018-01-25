@@ -5,6 +5,10 @@
 * [github.com/Snorby/snorby/wiki](http://github.com/Snorby/snorby/wiki)
 * irc.freenode.net #snorby
 
+## Goals of Fork
+
+The goal of this fork is to update snorby to function with current versions of Ruby and Rails. Keep an eye on the requirements for the currently supported version.
+
 ## Description
 
 Snorby is a ruby on rails web application for network security monitoring that interfaces with current popular intrusion detection systems (Snort, Suricata and Sagan). The basic fundamental concepts behind Snorby are **simplicity**, organization and power. The project goal is to create a free, open source and highly competitive application for network monitoring for both private and enterprise use.
