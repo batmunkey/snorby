@@ -1,8 +1,7 @@
 # Snorby
 
-* [github.com/Snorby/snorby](http://github.com/Snorby/snorby/)
-* [github.com/Snorby/snorby/issues](http://github.com/Snorby/snorby/issues)
-* [github.com/Snorby/snorby/wiki](http://github.com/Snorby/snorby/wiki)
+* [github.com/batmunkey/snorby](https://github.com/batmunkey/snorby/)
+* [github.com/batmunkey/snorby/issues](https://github.com/batmunkey/snorby/issues)
 * irc.freenode.net #snorby
 
 ## Goals of Fork
