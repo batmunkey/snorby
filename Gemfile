@@ -1,11 +1,11 @@
 source 'https://rubygems.org'
 
-RAILS_VERSION = '3.2.22'
-RSPEC_VERSION = '~> 2.0.0'
+RAILS_VERSION = '5.1.4'
+RSPEC_VERSION = '~> 3.7.0'
 DATAMAPPER    = 'https://github.com/datamapper'
-DM_VERSION    = '~> 1.2.0'
+DM_VERSION    = '~> 1.2.2'
 
-gem 'rake', '0.9.2'
+gem 'rake', '12.3.0'
 gem 'request_store', '~> 1.0.5'
 gem 'rails',                       RAILS_VERSION
 gem 'jquery-rails'
