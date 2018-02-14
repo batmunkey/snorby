@@ -40,10 +40,7 @@ Snorby is a ruby on rails web application for network security monitoring that i
 	
 * Install wkhtmltopdf
         
-	```
-	sudo apt-get update
-        sudo apt-get install xvfb libfontconfig wkhtmltopdf
-        ```
+        `sudo apt-get update && sudo apt-get install xvfb libfontconfig wkhtmltopdf`
 	 
 * Run The Snorby Setup
 
