@@ -6,7 +6,7 @@
 
 ## Goals of Fork
 
-The goal of this fork is to update snorby to function with current versions of Ruby and Rails. Keep an eye on the requirements for the currently supported version.
+This fork should NOT be used for production yet. The goal of this fork is to update snorby to function with current versions of Ruby and Rails. Keep an eye on the requirements for the currently supported version.
 
 ## Description
 
