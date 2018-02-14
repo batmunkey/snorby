@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 RAILS_VERSION = '5.1.4'
 RSPEC_VERSION = '~> 3.7.0'
 DATAMAPPER    = 'https://github.com/datamapper'
-DM_VERSION    = '~> 1.2.2'
+DM_VERSION    = '~> 1.2.0'
 
 gem 'rake', '12.3.0'
 gem 'request_store', '~> 1.0.5'
@@ -64,8 +64,9 @@ gem 'pdfkit',                      '~> 0.4.6'
 gem 'ezprint',                     :git => 'https://github.com/mephux/ezprint.git', :branch => 'rails3', :require => 'ezprint'
 gem 'daemons',                     '~> 1.1.0'
 
-gem 'delayed_job',                 '~> 2.1.4'
-gem 'delayed_job_data_mapper',     '~> 1.0.0.rc', :git => 'https://github.com/Snorby/delayed_job_data_mapper.git'
+gem 'delayed_job',                 '~> 4.1.4'
+# Check on updating this
+#gem 'delayed_job_data_mapper',     '~> 1.0.0.rc', :git => 'https://github.com/Snorby/delayed_job_data_mapper.git'
 
 # Working On This
 # gem 'delayed_job',                 '~> 3.0'
