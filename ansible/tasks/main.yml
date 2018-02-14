@@ -1,0 +1,63 @@
+#Install snorby
+
+- name: apt-get installs
+  apt: name="{{ item }}" state=present
+  with_items:
+    - imagemagick
+    - apache2
+    - libyaml-dev
+    - libxml2-dev
+    - libxslt-dev
+    - git-core
+    - default-jre
+    - libmagickwand-dev
+    - wkhtmltopdf
+    - gcc
+    - g++
+    - build-essential
+    - libssl-dev
+    - libreadline-gplv2-dev
+    - zlib1g-dev
+    - linux-headers-generic
+    - libsqlite3-dev
+    - libxslt1-dev
+    - libxml2-dev
+    - libmysqlclient-dev
+    - libmysql++-dev
+    - ruby
+    - ruby-bundler
+    - ruby-dev
+    - libgmp-dev
+    - postgresql
+    - postgresql-contrib
+    - libpq-dev
+    - postgresql-server-dev-all
+
+- name: gem installs
+  gem: name="{{ item }}" state=present
+  with_items:
+    - thor
+    - i18n
+    - bundler
+    - tzinfo
+    - builder
+    - memcache-client
+    - rack
+    - rack-test
+    - erubis
+    - mail
+    - sqlite3
+    - rack-mount
+    - rails
+    - rake
+    - rubygems-update
+
+- name: Get my version of snorby
+  git:
+    repo: 'https://github.com/batmunkey/snorby.git'
+    dest: /usr/local
+
+- name: Bundle install snorby
+  bundler:
+    state: present
+    gemfile: /usr/local/snorby/Gemfile
