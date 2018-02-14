@@ -1,4 +1,4 @@
-#Install snorby
+#Install snorby on Debian based systems
 
 - name: apt-get installs
   apt: name="{{ item }}" state=present
@@ -11,6 +11,8 @@
     - git-core
     - default-jre
     - libmagickwand-dev
+    - xvfb
+    - libfontconfig
     - wkhtmltopdf
     - gcc
     - g++
@@ -55,7 +57,7 @@
 - name: Get my version of snorby
   git:
     repo: 'https://github.com/batmunkey/snorby.git'
-    dest: /usr/local
+    dest: /usr/local/snorby
 
 - name: Bundle install snorby
   bundler:
