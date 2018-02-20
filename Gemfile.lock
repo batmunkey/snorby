@@ -343,6 +343,7 @@ DEPENDENCIES
   rspec-expectations (~> 3.7.0)
   rspec-rails (~> 3.7.0)
   rubycas-client
+  sequel (~> 5.5.0)
   simple_form (~> 1.2.2)
   test-unit
   thin
