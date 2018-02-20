@@ -19,6 +19,9 @@ gem 'warbler',                     :platforms => :jruby
 gem 'jruby-rack-worker',           :platforms => :jruby
 # gem 'glassfish', :platforms => :jruby
 
+# Sequel additions to replace datamapper
+gem 'sequel',                      '~> 5.5.0' 
+
 # DateTime Patches
 gem 'home_run',                    :require => 'date', :platforms => :mri
 
