@@ -10,7 +10,7 @@ production:
   baseuri: ''
   # baseuri: '/snorby'
   domain: 'demo.example.com'
-  wkhtmltopdf: /usr/local/bin/wkhtmltopdf
+  wkhtmltopdf: /usr/bin/wkhtmltopdf
   ssl: false
   mailer_sender: 'snorby@example.com'
   geoip_uri: "http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz"
@@ -30,7 +30,7 @@ production:
 development:
   baseuri: ''
   domain: localhost:3000
-  wkhtmltopdf: /Users/mephux/.rvm/gems/ruby-1.9.2-p0/bin/wkhtmltopdf
+  wkhtmltopdf: /usr/bin/wkhtmltopdf
   ssl: false
   mailer_sender: 'snorby@example.com'
   geoip_uri: "http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz"
@@ -52,7 +52,7 @@ development:
 test:
   baseuri: ''
   domain: localhost:3000
-  wkhtmltopdf: /usr/local/bin/wkhtmltopdf
+  wkhtmltopdf: /usr/bin/wkhtmltopdf
   mailer_sender: 'snorby@example.com'
   geoip_uri: "http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz"
   authentication_mode: database
